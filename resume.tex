@@ -1,0 +1,341 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[scott-allen-funkhouser]{Scott Allen Funkhouser}
+
+\thinrule
+
+\startblockquote
+Updated January 2017
+\stopblockquote
+
+\thinrule
+
+\subsection[education]{Education}
+
+\startdescription{2013-2019}
+  {\bf PhD, Genetics and Quantitative Biology}; Michigan State
+  University
+\stopdescription
+
+\startdescription{2007-2011}
+  {\bf BSc, Biochemistry}; University of Washington
+\stopdescription
+
+\startdescription{2005-2007}
+  {\bf Valedictorian}; Graham-Kapowsin HS
+\stopdescription
+
+\subsection[research-positions]{Research Positions}
+
+\startdescription{2014 - Present}
+  {\bf Graduate Research Assistant}; Mentor: Catherine Ernst PhD;
+  Michigan State University
+
+  {\em Investigating the role of A-to-I RNA editing in mammalian genomes
+  and developing methods for the genomic prediction of complex
+  phenotypes.}
+\stopdescription
+
+\startdescription{2012 - 2013}
+  {\bf Research Scientist I}; Mentor: Mary Philip MD PhD; University of
+  Washington
+
+  {\em Investigated the role of a heme exporter, FLVCR, in the
+  development of T lymphocytes.}
+\stopdescription
+
+\startdescription{2010 - 2011}
+  {\bf Undergraduate Research Assistant}; Mentor: Chris Hague PhD;
+  University of Washington
+
+  {\em Studied novel binding partners to pertinent G-Protein coupled
+  receptors.}
+\stopdescription
+
+\subsection[awards-grants-scholarships]{Awards, Grants, Scholarships}
+
+{\bf USDA Pre-doctoral Fellowship}
+
+{\em 2017-2019} • {\em \$95,000}
+
+{\bf ISAG Travel Award}
+
+{\em \$2,000 to attend the 2016 ISAG Conference in Salt Lake City, UT}
+
+{\bf NSIF Graduate Student Travel Award}
+
+{\em \$500 to attend 2016 NSIF meeting in Raleigh, NC}
+
+{\bf Fred and Lucille Stamper Academic College Scholarship}
+
+{\em 2007 - 2011} • {\em \$16,256}
+
+\subsection[memberships]{Memberships}
+
+{\bf ASAS PhD Student Member}
+
+{\em 2015 -- Present}
+
+{\bf Genetics Student Organization Officer}
+
+\startitemize[packed]
+\item
+  2016-Present: {\em President}
+\item
+  2014-2015: {\em Second-year Representative}
+\item
+  2015-2016: {\em Third-year Representative and Social Chair}
+\stopitemize
+
+\subsection[selected-graduate-coursework]{Selected Graduate Coursework}
+
+\startitemize[packed]
+\item
+  Molecular Biology (BMB 801)
+\item
+  Eukaryotic Molecular Genetics (MMG 835)
+\item
+  R Programming for Quantitative Genetics (ANS 824)
+\item
+  Advanced Statistics for Biologists (STT 814)
+\item
+  Intro to Statistical Genetics (STT 855)
+\item
+  Bayesian Inference using MCMC (FW 849)
+\stopitemize
+
+\subsection[skills]{Skills}
+
+\startdescription{{\bf Programming}}
+  Listed in order from most skilled to least skilled
+
+  \startitemize[packed]
+  \item
+    The R language
+  \item
+    C++
+  \item
+    Bash
+  \item
+    Fortran
+  \item
+    Python
+  \item
+    Java
+  \stopitemize
+
+  Familiar with others for web development including:
+
+  \startitemize[packed]
+  \item
+    Markdown
+  \item
+    HTML
+  \item
+    CSS
+  \item
+    Javascript
+  \stopitemize
+\stopdescription
+
+\startdescription{{\bf Bioinformatics}}
+  Experience using various tools, including:
+
+  \startitemize[packed]
+  \item
+    Bowtie
+  \item
+    Tophat
+  \item
+    Picard
+  \item
+    SAMTools
+  \item
+    bcftools
+  \item
+    Variant Effect Predictor
+  \item
+    UCSC Genome Browser
+  \stopitemize
+\stopdescription
+
+\startdescription{{\bf Software development}}
+  \startitemize[packed]
+  \item
+    Git
+  \item
+    Github
+  \item
+    R Studio
+  \item
+    GNU Make
+  \stopitemize
+
+  R development packages:
+
+  \startitemize[packed]
+  \item
+    devtools
+  \item
+    roxygen
+  \item
+    testthat
+  \stopitemize
+\stopdescription
+
+\startdescription{{\bf Literate programming}}
+  \startitemize[packed]
+  \item
+    knitr
+  \item
+    Rmarkdown
+  \item
+    Shiny
+  \stopitemize
+\stopdescription
+
+\startdescription{{\bf Molecular Biology}}
+  \startitemize[packed]
+  \item
+    Flow cytometry
+  \item
+    immunostaining
+  \item
+    qPCR
+  \item
+    PCR
+  \item
+    molecular cloning and techniques therein
+  \item
+    cell culture
+  \stopitemize
+\stopdescription
+
+\subsection[publications]{Publications}
+
+\startitemize[n,packed][stopper=.]
+\item
+  {\bf Funkhouser SA}, Bates RO, Ernst CW, Newcom D, Steibel JP.
+  Estimation of genome-wide and locus-specific breed composition in
+  pigs. TAS. 2017; doi: 10.2527/tas2016.0003
+\item
+  Zhao D, Hamilton JP, Hardigan M, Yin D, He T, Vaillancourt B, Reynoso
+  M, {\bf Funkhouser SA} et al. Analysis of ribosome-associated mRNAs in
+  rice reveals the importance of transcript size and GC content in
+  translation. G3 (Bethesda). 2016;7: 203--219.
+  doi:10.1534/g3.116.036020
+\item
+  Philip M, {\bf Funkhouser SA}, Chiu EY, Phelps SR, Delrow JJ, Cox J,
+  et al. Heme Exporter FLVCR Is Required for T Cell Development and
+  Peripheral Survival. J Immunol. 2015; doi:10.4049/jimmunol.1402172
+\stopitemize
+
+\subsection[pending-publications]{Pending Publications}
+
+\startitemize[n,packed][stopper=.]
+\item
+  {\bf Funkhouser SA}, Steibel JP, Bates RO, Raney NE, Schenk D, Ernst
+  CW. Evidence for Transcriptome-wide RNA Editing Among Sus scrofa PRE-1
+  SINE Elements. bioRxiv. 2017; Available:
+  \useURL[url1][http://biorxiv.org/content/early/2017/01/05/096321.abstract][][here]\from[url1]
+\item
+  Reeb PD, {\bf Funkhouser SA}, Ernst CW, Steibel JP. Assessing genotype
+  call accuracy from RNA sequencing data.
+\stopitemize
+
+\subsection[conference-presentations-and-posters]{Conference
+Presentations and Posters}
+
+\startitemize[packed]
+\item
+  {\bf Funkhosuer SA}, Bates RO, CW Ernst, Newcom D, Steibel JP. (2016)
+  Estimation of the composition of four U.S. swine breeds using genomic
+  data. ePoster presented at the 2016 ASDA/AAS Joint Annual Meeting.
+\item
+  {\bf Funkhouser SA}, Steibel JP, Bates RO, Raney NE, Ernst CW. (2016)
+  RNA editing in swine is associated with PRE-1 retrotransposons.
+  ePoster presented at the 2016 International Society for Animal
+  Genetics Conference.
+\item
+  {\bf Funkhouser SA}, Steibel JP, Bates RO, Raney NE, Ernst CW. (2015)
+  Evidence of RNA editing in pig longissimus dorsi muscle. Oral
+  presentation given at the American Dairy Science / American Society of
+  Animal Science Midwest Conference. 
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url1][mailto:sfunkhouser@gmail.com][][sfunkhouser@gmail.com]\from[url1]
+• (253)-720-2797 • 474 S. Shaw Lane, Room 1205 - East Lansing, Michigan,
+USA
+\stopblockquote
+
+\stoptext

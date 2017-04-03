@@ -1,0 +1,120 @@
+open source     > 1 > 1 > /usr/local/texlive/2015/texmf-dist/tex/context/base/cont-yes.mkiv
+
+ConTeXt  ver: 2015.05.18 12:26 MKIV current  fmt: 2017.1.16  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /usr/local/texlive/2015/texmf-dist/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /usr/local/texlive/2015/texmf-dist/tex/context/base/cont-new.mkiv
+system          > files > jobname 'resume', input './resume', result 'resume'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /Users/sfunkhouser/Programs/pandoc_resume/resume.tex
+colors          > defining > unknown library 'hex'
+open source     > 3 > 4 > /usr/local/texlive/2015/texmf-dist/tex/context/base/type-imp-texgyre.mkiv
+close source    > 3 > 4 > /usr/local/texlive/2015/texmf-dist/tex/context/base/type-imp-texgyre.mkiv
+structure       > sectioning > section @ level 3 : 0.0.1 -> Scott Allen Funkhouser
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
+structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Research Positions
+structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Awards, Grants, Scholarships
+structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Memberships
+structure       > sectioning > subsection @ level 4 : 0.0.1.5 -> Selected Graduate Coursework
+backend         > xmp > using file '/usr/local/texlive/2015/texmf-dist/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+structure       > sectioning > subsection @ level 4 : 0.0.1.6 -> Skills
+pages           > flushing realpage 2, userpage 2
+structure       > sectioning > subsection @ level 4 : 0.0.1.7 -> Publications
+structure       > sectioning > subsection @ level 4 : 0.0.1.8 -> Pending Publications
+
+Overfull \hbox (11.84972pt too wide) in paragraph at lines 304--309
+ [][][][] \3>helvetica-11pt-ss-bf-0--0 Funkhouser SA\3>helvetica-11pt-ss-tf-0--0 , Steibel JP, Bates RO, Raney NE, Schenk D, Ernst CW. Ev-i-dence for Transcriptome-
+
+\hbox(11.62027+4.51897)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 16.5
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\hbox(11.62027+4.51897)x0.0, glue set - 16.5fil, direction TLT
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(11.62027+4.51897)x16.5, direction TLT
+...\hbox(11.62027+4.51897)x16.5, glue set 7.326fil, direction TLT []
+.\hbox(11.62027+4.51897)x0.0, direction TLT
+.etc.
+
+structure       > sectioning > subsection @ level 4 : 0.0.1.9 -> Conference Presentations and Posters
+pages           > flushing realpage 3, userpage 3
+pages           > flushing realpage 4, userpage 4
+close source    > 2 > 4 > /Users/sfunkhouser/Programs/pandoc_resume/resume.tex
+close source    > 1 > 4 > /usr/local/texlive/2015/texmf-dist/tex/context/base/cont-yes.mkiv
+
+system          > structure > start used structure
+
+used structure  > text: resume
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/local/texlive/2015/texmf-dist/tex/context/base/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=/usr/local/texlive/2015/texmf-dist/tex/context/base/publ-imp-default.lua usedmethod=database
+used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/local/texlive/2015/texmf-dist/tex/context/base/cont-new.mkiv usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=lua foundname=/usr/local/texlive/2015/texmf-dist/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    5: filename=/Users/sfunkhouser/Programs/pandoc_resume/resume.tex foundname=/Users/sfunkhouser/Programs/pandoc_resume/resume.tex usedmethod=direct
+used file       >    6: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/local/texlive/2015/texmf-dist/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
+used file       >    7: filename=lm.lfg filetype=tex foundname=/usr/local/texlive/2015/texmf-dist/tex/context/fonts/lm.lfg usedmethod=database
+used file       >    8: filename=texgyreheros-regular filetype=otf format=otf foundname=/usr/local/texlive/2015/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+used file       >    9: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   10: filename=texgyreheros-bold filetype=otf format=otf foundname=/usr/local/texlive/2015/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+used file       >   11: filename=texgyreheros-italic filetype=otf format=otf foundname=/usr/local/texlive/2015/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf usedmethod=database
+used file       >   12: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/texlive/2015/texmf-dist/tex/context/base/lpdf-pdx.xml usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="2"
+used option     > fulljobname="./resume.tex"
+used option     > input="./resume.tex"
+used option     > kindofrun="2"
+used option     > maxnofruns="9"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./resume.tex
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable: '/usr/local/texlive/2015/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9' | readable+writable: '/var/folders/q6/dz42gwps5k72jwhfyr42w4880000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
+mkiv lua stats  > resource resolver: loadtime 0.112 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 12 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 371 modules (0.344 sec), 78 tables (0.010 sec), 449 chunks (0.353 sec)
+mkiv lua stats  > traced context: maxstack: 1137, freed: 5, unreachable: 1132
+mkiv lua stats  > running in nuts mode: yes
+mkiv lua stats  > cleaned up reserved nodes: 53 nodes, 439 lists of 438
+mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 61 glue_spec, 3 attribute_list, 2 temp
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 909 calls
+mkiv lua stats  > h-node processing time: 0.030 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 1828 direct, 869 indirect, 2697 total
+mkiv lua stats  > randomizer: resumed with value 0.27459683701144
+mkiv lua stats  > interactive elements: 2 references, 21 destinations
+mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
+mkiv lua stats  > fonts load time: 0.254 seconds for 10 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
+mkiv lua stats  > pdf annotations: 2 links (2 unique), 0 special
+mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: bin
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.80.0 (tex live 2015) (rev 5238)
+mkiv lua stats  > control sequences: 43441 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 75 MB (ctx: 75 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.953 seconds, 4 processed pages, 4 shipped pages, 4.197 pages/second
+
