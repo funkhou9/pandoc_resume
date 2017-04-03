@@ -1,100 +1,192 @@
-Johnny Coder
+Scott Allen Funkhouser
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Updated January 2017
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2013-2019
+:   **PhD, Genetics and Quantitative Biology**; Michigan State University
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+2007-2011
+:   **BSc, Biochemistry**; University of Washington
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2005-2007
+:   **Valedictorian**; Graham-Kapowsin HS
 
-    *Minor: Awesomeology*
-
-Experience
+Research Positions
 ----------
 
-**Your Most Recent Work Experience:**
+2014 - Present
+:   **Graduate Research Assistant**; Mentor: Catherine Ernst PhD; Michigan State University
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    *Investigating the role of A-to-I RNA editing in mammalian genomes and developing
+     methods for the genomic prediction of complex phenotypes.*
 
-* First item
+2012 - 2013
+:   **Research Scientist I**; Mentor: Mary Philip MD PhD; University of Washington
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    *Investigated the role of a heme exporter, FLVCR, in the development of T lymphocytes.*
 
-**That Other Job You Had**
+2010 - 2011
+:   **Undergraduate Research Assistant**; Mentor: Chris Hague PhD; University of Washington
 
-Also with a short description.
+    *Studied novel binding partners to pertinent G-Protein coupled receptors.*
 
-Technical Experience
+Awards, Grants, Scholarships
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+**USDA Pre-doctoral Fellowship**
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+*2017-2019* • *$95,000*
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+**ISAG Travel Award**
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+*$2,000 to attend the 2016 ISAG Conference in Salt Lake City, UT*
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+**NSIF Graduate Student Travel Award**
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+*$500 to attend 2016 NSIF meeting in Raleigh, NC*
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+**Fred and Lucille Stamper Academic College Scholarship**
 
-[ref]: https://github.com/githubuser/superlongprojectname
+*2007 - 2011* • *$16,256*
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+Memberships
+-----------
 
-* Human Languages:
+**ASAS PhD Student Member**
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+*2015 – Present*
 
-* Random tidbit
+**Genetics Student Organization Officer**
 
-* Other sort of impressive-sounding thing you did
+- 2016-Present: *President*
+- 2014-2015: *Second-year Representative*
+- 2015-2016: *Third-year Representative and Social Chair*
+
+Selected Graduate Coursework
+----------------------------
+
+- Molecular Biology (BMB 801)
+- Eukaryotic Molecular Genetics (MMG 835)
+- R Programming for Quantitative Genetics (ANS 824)
+- Advanced Statistics for Biologists (STT 814)
+- Intro to Statistical Genetics (STT 855)
+- Bayesian Inference using MCMC (FW 849)
+
+Skills
+-------------------
+
+**Programming**
+:   Listed in order from most skilled to least skilled   
+
+    - The R language
+    - C++
+    - Bash
+    - Fortran
+    - Python
+    - Java
+
+    Familiar with others for
+    web development including:
+
+    - Markdown
+    - HTML
+    - CSS
+    - Javascript
+
+**Bioinformatics**
+:   Experience using various tools, including:
+
+    - Bowtie
+    - Tophat
+    - Picard
+    - SAMTools
+    - bcftools
+    - Variant Effect Predictor
+    - UCSC Genome Browser
+
+**Software development**
+:   - Git
+    - Github
+    - R Studio
+    - GNU Make
+
+    R development packages:
+
+    - devtools
+    - roxygen
+    - testthat
+
+**Literate programming**
+:   - knitr
+    - Rmarkdown
+    - Shiny
+
+**Molecular Biology**
+:   - Flow cytometry
+    - immunostaining
+    - qPCR
+    - PCR
+    - molecular cloning and techniques therein
+    - cell culture
+
+Publications
+------------
+1. **Funkhouser SA**, Bates RO, Ernst CW, Newcom D, Steibel JP. Estimation of
+genome-wide and locus-specific breed composition in pigs. TAS. 2017;
+doi: 10.2527/tas2016.0003
+2. Zhao D, Hamilton JP, Hardigan M, Yin D, He T, Vaillancourt B, Reynoso M,
+**Funkhouser SA** et al. Analysis of ribosome-associated mRNAs in rice reveals the
+importance of transcript size and GC content in translation. G3 (Bethesda).
+2016;7: 203–219. doi:10.1534/g3.116.036020
+3. Philip M, **Funkhouser SA**, Chiu EY, Phelps SR, Delrow JJ, Cox J, et al.
+Heme Exporter FLVCR Is Required for T Cell Development and Peripheral Survival.
+J Immunol. 2015; doi:10.4049/jimmunol.1402172
+
+Pending Publications
+--------------------
+
+1. **Funkhouser SA**, Steibel JP, Bates RO, Raney NE, Schenk D, Ernst CW. Evidence
+for Transcriptome-wide RNA Editing Among Sus scrofa PRE-1 SINE Elements. bioRxiv.
+2017; Available: [here](http://biorxiv.org/content/early/2017/01/05/096321.abstract)
+2. Reeb PD, **Funkhouser SA**, Ernst CW, Steibel JP.
+Assessing genotype call accuracy from RNA sequencing data.
+
+Conference Presentations and Posters
+-------------------------
+
+- **Funkhosuer SA**, Bates RO, CW Ernst, Newcom D, Steibel JP. (2016) Estimation
+of the composition of four U.S. swine breeds using genomic data. ePoster presented
+at the 2016 ASDA/AAS Joint Annual Meeting.
+- **Funkhouser SA**, Steibel JP, Bates RO, Raney NE, Ernst CW. (2016) RNA editing
+in swine is associated with PRE-1 retrotransposons. ePoster presented at the
+2016 International Society for Animal Genetics Conference.
+- **Funkhouser SA**, Steibel JP, Bates RO, Raney NE, Ernst CW. (2015)
+Evidence of RNA editing in pig longissimus dorsi muscle.
+Oral presentation given at the American Dairy Science /
+American Society of Animal Science Midwest Conference.
+<!-- * Funkhouser SA, Steibel JP, Newcom D, Ernst CW.
+Evaluation of four US pig breeds using the Affymetrix Axiom PigHD array. PAG
+Swine Workshop January 2017.
+* C.W. Ernst, S. A. Funkhouser, J.P. Steibel, R.O. Bates, N.E. Raney. (2015)
+Evidence of RNA editing in pig longissimus dorsi muscle.
+Oral presentation given at the Plant and Animal Genome XXIII Conference.
+* M. Philip, S.A. Funkhouser, J.J. Delrow, E.Y. Chiu, and J.L. Abkowitz. (2012)
+FLVCR, a Heme Exporter, Is Required for Peripheral T Cell Survival.
+Poster presented at the 54th Annual American Society of Hematology Meeting and
+Exposition.
+* M. Philip, S.A. Funkhouser, J.J. Delrow, and J.L. Abkowitz. (2012) FLVCR, a Heme
+Export Protein, is Required for T Cell Development and Survival. Poster
+presented at the Keystone Symposium on Molecular and Cellular Biology -->
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <sfunkhouser@gmail.com> • (253)-720-2797 •
+> 474 S. Shaw Lane, Room 1205 - East Lansing, Michigan, USA
